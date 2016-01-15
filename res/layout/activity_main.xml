@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/orderDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/edite_order_detials" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/orderDetails"
+        android:layout_alignParentLeft="true"
+        android:text="@string/edite_order" />
+
+    <Button
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/order"
+        android:layout_alignParentLeft="true"
+        android:text="@string/edite_product" />
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/product"
+        android:layout_alignParentLeft="true"
+        android:text="@string/edite_customer" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/iman_inventory"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

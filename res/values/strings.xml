@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inventory</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings 2</string>
+    <string name="Back">Back</string>
+    <string name="add">Add</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="add_a_customer">Add a Customer</string>
+    <string name="_search_for_a_customer">"         Search for a Customer"</string>
+    <string name="select_form_menu">Enter Customer Name</string>
+    <string name="search">Search</string>
+    <string name="back">Back</string>
+    <string name="edite_order_detials">Edit Order Detials</string>
+    <string name="edite_order">Edit Order</string>
+    <string name="edite_product">Edit Product</string>
+    <string name="edite_customer">Edit Customer</string>
+    <string name="a_customer_invoice">A Customer Invoice</string>
+    <string name="iman_inventory">Iman Inventory</string>
+    <string name="cancel">Cancel</string>
+    <string name="medium_text">A Customer details</string>
+    <string name="a_customer_details">A customer Details</string>
+    <string name="title_activity_customer_search">CustomerSearch</string>
+    <string name="title_activity_product_ui">ProductUI</string>
+    <string name="my_galary">My Galary</string>
+
+</resources>

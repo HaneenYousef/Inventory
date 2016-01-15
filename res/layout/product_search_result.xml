@@ -1,0 +1,32 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/button1"
+            android:text="Update" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+             android:choiceMode="multipleChoice"
+            android:layout_below="@+id/button2" >
+
+        </ListView>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/listView1"
+            android:layout_alignParentLeft="true"
+            android:text="Delete" />
+
+    </RelativeLayout>
